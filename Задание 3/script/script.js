@@ -54,7 +54,4 @@ sentMessage(message);
 }
 )
 
-btnGeo.addEventListener('click', () => {
-  geoLocation();
-}
-)
+btnGeo.addEventListener('click', geoLocation);
